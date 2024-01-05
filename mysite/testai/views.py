@@ -34,7 +34,7 @@ def execute_test(request):
 
                 # Execute the test and capture the output
                 result = run_cli(['temp_test.robot'], exit=False)
-               # results.append({'title': title, 'result': result})
+                results.append({'title': title, 'result': result})
 
             # Return the test results
             return JsonResponse({'status': 'success', 'results': results})

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240105 14:03:49.844" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240105 14:47:51.634" rpa="false" schemaversion="4">
 <suite id="s1" name="Temp Test" source="C:\Users\admin\PycharmProjects\pythonProject3\mysite\temp_test.robot">
 <test id="s1-t1" name="Open Google.com" line="5">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>https://google.com</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" starttime="20240105 14:03:50.038" endtime="20240105 14:03:54.619"/>
+<status status="PASS" starttime="20240105 14:47:51.845" endtime="20240105 14:47:55.320"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20240105 14:03:54.620" endtime="20240105 14:03:54.760"/>
+<status status="PASS" starttime="20240105 14:47:55.323" endtime="20240105 14:47:55.467"/>
 </kw>
 <doc>Open Google homepage in Chrome browser</doc>
-<status status="PASS" starttime="20240105 14:03:50.037" endtime="20240105 14:03:54.762"/>
+<status status="PASS" starttime="20240105 14:47:51.845" endtime="20240105 14:47:55.468"/>
 </test>
-<status status="PASS" starttime="20240105 14:03:49.845" endtime="20240105 14:03:54.771"/>
+<status status="PASS" starttime="20240105 14:47:51.634" endtime="20240105 14:47:55.470"/>
 </suite>
 <statistics>
 <total>
